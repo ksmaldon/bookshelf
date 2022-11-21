@@ -1,0 +1,32 @@
+{
+  "name": "bookshelf-app",
+  "version": "1.0.0",
+  "description": "A virtual bookshelf.",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksmaldon/bookshelf.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ksmaldon/bookshelf/issues"
+  },
+  "homepage": "https://github.com/ksmaldon/bookshelf#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "install": "^0.13.0",
+    "morgan": "^1.10.0",
+    "npm": "^9.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
